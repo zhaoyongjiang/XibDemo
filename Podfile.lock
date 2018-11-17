@@ -1,0 +1,15 @@
+PODS:
+  - IQKeyboardManager (6.2.0)
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - IQKeyboardManager
+  - Masonry
+
+SPEC CHECKSUMS:
+  IQKeyboardManager: 6194101620b73af5e67900b8f89707a99de0b804
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: afed94e77502e55226838c9f872da30d212ed3d1
+
+COCOAPODS: 1.3.1

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LabelViewController">
+            <connections>
+                <outlet property="testLabel" destination="ttN-Md-b5t" id="lBt-Qg-sEO"/>
+                <outlet property="testl" destination="88G-vw-WIF" id="mvy-a5-EG2"/>
+                <outlet property="textview" destination="SmV-FI-0LO" id="Wc2-Mh-v5f"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="法拉克剪短发拉剪短发垃圾都发啦都看过我auto恩我去肉我我去euro法拉克及第三方拉开惊世毒妃" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ttN-Md-b5t" customClass="ZYJLabel">
+                    <rect key="frame" x="0.0" y="149" width="375" height="61"/>
+                    <color key="backgroundColor" red="1" green="0.38812058003692895" blue="0.39726447752020777" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SmV-FI-0LO">
+                    <rect key="frame" x="0.0" y="269" width="375" height="283.5"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <gestureRecognizers/>
+                    <constraints>
+                        <constraint firstAttribute="height" priority="250" constant="128" id="SJe-MG-U6J"/>
+                    </constraints>
+                    <string key="text">人之初，性本善。性相近，习相远。
+苟不教，性乃迁。教之道，贵以专。
+昔孟母，择邻处。子不学，断机杼。
+窦燕山，有义方。教五子，名俱扬。
+养不教，父之过。教不严，师之惰。
+子不学，非所宜。幼不学，老何为。
+玉不琢，不成器。人不学，不知义。
+为人子，方少时。亲师友，习礼仪。
+香九龄，能温席。孝于亲，所当执。
+融四岁，能让梨。弟于长，宜先知。
+首孝悌，次见闻。知某数，识某文。
+一而十，十而百。百而千，千而万。
+三才者，天地人。三光者，日月星。
+三纲者，君臣义。父子亲，夫妇顺。
+曰春夏，曰秋冬。此四时，运不穷。
+曰南北，曰西东。此四方，应乎中。</string>
+                    <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="7mQ-Ol-grD" appends="YES" id="NiZ-d8-ujM"/>
+                    </connections>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="SmV-FI-0LO" firstAttribute="top" secondItem="ttN-Md-b5t" secondAttribute="bottom" constant="59" id="88G-vw-WIF"/>
+                <constraint firstAttribute="trailing" secondItem="ttN-Md-b5t" secondAttribute="trailing" id="9d3-hd-xHQ"/>
+                <constraint firstItem="ttN-Md-b5t" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="BRN-hC-dAc"/>
+                <constraint firstItem="SmV-FI-0LO" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="GEa-SR-7hG"/>
+                <constraint firstItem="ttN-Md-b5t" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="149" id="NHg-6T-zgI"/>
+                <constraint firstAttribute="trailing" secondItem="SmV-FI-0LO" secondAttribute="trailing" id="vSg-vV-8Lf"/>
+            </constraints>
+            <point key="canvasLocation" x="-70.5" y="62.5"/>
+        </view>
+        <tapGestureRecognizer id="7mQ-Ol-grD">
+            <connections>
+                <action selector="testTap:" destination="-1" id="3Bu-H7-B98"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+</document>
