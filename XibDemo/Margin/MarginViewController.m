@@ -73,6 +73,8 @@
 - (void)textViewDidChange:(UITextView *)textView
 {
     self.resultLb.text = textView.text;
+    [self.view layoutIfNeeded];
+    [[IQKeyboardManager sharedManager] reloadLayoutIfNeeded];
 }
 
 - (IBAction)accesoryBtnClick:(id)sender {
