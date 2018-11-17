@@ -9,7 +9,7 @@
 #import "CALayer+UIColor.h"
 
 @implementation CALayer (UIColor)
-- (void)transeColor2CGColor:(UIColor *)transeColor2CGColor
+- (void)setTranseColor2CGColor:(UIColor *)transeColor2CGColor
 {
     self.borderColor = transeColor2CGColor.CGColor;
 }

@@ -32,7 +32,8 @@
 
 - (void)viewDidLayoutSubviews
 {
-    self.testLabel.textInsets = UIEdgeInsetsMake(10, 10, 10, 0);
+    //注释开这行，可以看到内边距效果。但是导致内容共展示不全。
+//    self.testLabel.textInsets = UIEdgeInsetsMake(10, 10, 10, 10);
     [self.testLabel sizeToFit];
 }
 
