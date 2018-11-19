@@ -39,6 +39,9 @@
 		3ECBE37A219D6E42004C952E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECBE378219D6E42004C952E /* ViewController.m */; };
 		3ECBE37B219D6E42004C952E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3ECBE379219D6E42004C952E /* ViewController.xib */; };
 		3ECBE37E219E60A9004C952E /* Pet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECBE37D219E60A9004C952E /* Pet.m */; };
+		3ECBE38321A24CD4004C952E /* IBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECBE38121A24CD4004C952E /* IBViewController.m */; };
+		3ECBE38421A24CD4004C952E /* IBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3ECBE38221A24CD4004C952E /* IBViewController.xib */; };
+		3ECBE38721A25695004C952E /* CustomImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECBE38621A25695004C952E /* CustomImageView.m */; };
 		3ED3706E21913540000D0539 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED3706D21913540000D0539 /* HomeViewController.m */; };
 		3ED3707021913950000D0539 /* cellList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3ED3706F21913950000D0539 /* cellList.plist */; };
 		3ED3707921917AA6000D0539 /* ZYJLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED3707821917AA6000D0539 /* ZYJLabel.m */; };
@@ -122,6 +125,11 @@
 		3ECBE379219D6E42004C952E /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		3ECBE37C219E60A9004C952E /* Pet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pet.h; sourceTree = "<group>"; };
 		3ECBE37D219E60A9004C952E /* Pet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pet.m; sourceTree = "<group>"; };
+		3ECBE38021A24CD4004C952E /* IBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBViewController.h; sourceTree = "<group>"; };
+		3ECBE38121A24CD4004C952E /* IBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IBViewController.m; sourceTree = "<group>"; };
+		3ECBE38221A24CD4004C952E /* IBViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IBViewController.xib; sourceTree = "<group>"; };
+		3ECBE38521A25695004C952E /* CustomImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomImageView.h; sourceTree = "<group>"; };
+		3ECBE38621A25695004C952E /* CustomImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomImageView.m; sourceTree = "<group>"; };
 		3ED3706821913458000D0539 /* XibDemo-prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XibDemo-prefix.pch"; sourceTree = "<group>"; };
 		3ED3706C21913540000D0539 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		3ED3706D21913540000D0539 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
@@ -265,6 +273,18 @@
 			path = UIView;
 			sourceTree = "<group>";
 		};
+		3ECBE37F21A24CB8004C952E /* IB */ = {
+			isa = PBXGroup;
+			children = (
+				3ECBE38021A24CD4004C952E /* IBViewController.h */,
+				3ECBE38121A24CD4004C952E /* IBViewController.m */,
+				3ECBE38221A24CD4004C952E /* IBViewController.xib */,
+				3ECBE38521A25695004C952E /* CustomImageView.h */,
+				3ECBE38621A25695004C952E /* CustomImageView.m */,
+			);
+			path = IB;
+			sourceTree = "<group>";
+		};
 		3ED37067219133FD000D0539 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -337,6 +357,7 @@
 		3EEF25B82188052F00F5730F /* XibDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3ECBE37F21A24CB8004C952E /* IB */,
 				3ECBE371219D6D3C004C952E /* UIView */,
 				3ECBE366219D599C004C952E /* Object */,
 				3E4A19DC219BD4A20008B292 /* Webview */,
@@ -514,6 +535,7 @@
 				3EC416A12199662E00AED72E /* CollectionViewCell.xib in Resources */,
 				3E5836C1219929C100BE3A67 /* TableViewController.xib in Resources */,
 				3ED3708C2193CF0D000D0539 /* ImageViewViewController.xib in Resources */,
+				3ECBE38421A24CD4004C952E /* IBViewController.xib in Resources */,
 				3ECBE37B219D6E42004C952E /* ViewController.xib in Resources */,
 				3ECBE36E219D59FC004C952E /* ObjectViewController.xib in Resources */,
 				3EEF25C62188053300F5730F /* LaunchScreen.storyboard in Resources */,
@@ -607,12 +629,14 @@
 				3E5836AF21966ED200BE3A67 /* ScrollViewController2.m in Sources */,
 				3EEF25C92188053300F5730F /* main.m in Sources */,
 				3ED3708B2193CF0D000D0539 /* ImageViewViewController.m in Sources */,
+				3ECBE38721A25695004C952E /* CustomImageView.m in Sources */,
 				3E51B164219A6EE0009C41A9 /* MarginViewController.m in Sources */,
 				3ECBE36D219D59FC004C952E /* ObjectViewController.m in Sources */,
 				3EEF25BB2188052F00F5730F /* AppDelegate.m in Sources */,
 				3ECBE369219D59BD004C952E /* Person.m in Sources */,
 				3ED3706E21913540000D0539 /* HomeViewController.m in Sources */,
 				3ED3707921917AA6000D0539 /* ZYJLabel.m in Sources */,
+				3ECBE38321A24CD4004C952E /* IBViewController.m in Sources */,
 				3ECBE37E219E60A9004C952E /* Pet.m in Sources */,
 				3E4A19E0219BD4BC0008B292 /* WebViewController.m in Sources */,
 				3ED3707F21918B4A000D0539 /* CALayer+UIColor.m in Sources */,

@@ -18,6 +18,7 @@
 #import "WebViewController.h"
 #import "ObjectViewController.h"
 #import "ViewController.h"
+#import "IBViewController.h"
 
 @interface HomeViewController ()
 
@@ -56,7 +57,7 @@
 {
     if (!_cellArr) {
         _cellArr = [[NSMutableArray alloc] init];
-        [_cellArr addObjectsFromArray:@[@"LabelViewController", @"ImageViewViewController", @"ScrollViewController", @"ScrollViewController2", @"TableViewController", @"CollectionViewController", @"MarginViewController", @"ObjectViewController", @"ViewController"]];
+        [_cellArr addObjectsFromArray:@[@"LabelViewController", @"ImageViewViewController", @"ScrollViewController", @"ScrollViewController2", @"TableViewController", @"CollectionViewController", @"MarginViewController", @"ObjectViewController", @"ViewController", @"IBViewController"]];
     }
     
     return _cellArr;
