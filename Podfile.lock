@@ -1,15 +1,18 @@
 PODS:
   - IQKeyboardManager (6.2.0)
   - Masonry (1.1.0)
+  - XXNibBridge (2.3.1)
 
 DEPENDENCIES:
   - IQKeyboardManager
   - Masonry
+  - XXNibBridge (~> 2.3.0)
 
 SPEC CHECKSUMS:
   IQKeyboardManager: 6194101620b73af5e67900b8f89707a99de0b804
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  XXNibBridge: addb780e6db076eb2c61716aa60b176a6799b80f
 
-PODFILE CHECKSUM: afed94e77502e55226838c9f872da30d212ed3d1
+PODFILE CHECKSUM: f9df2a9b9b5348af7ad11ab66270b077549e7e48
 
 COCOAPODS: 1.3.1

@@ -27,6 +27,9 @@
 		3E5836C6219930D300BE3A67 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5836C4219930D300BE3A67 /* CollectionViewController.m */; };
 		3E5836C7219930D300BE3A67 /* CollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E5836C5219930D300BE3A67 /* CollectionViewController.xib */; };
 		3E684451218D85030073E4EE /* MHLXibToCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E684450218D85030073E4EE /* MHLXibToCode.framework */; };
+		3EADEACF21A3BD4B00B0FBA7 /* TestView2.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EADEACE21A3BD4B00B0FBA7 /* TestView2.m */; };
+		3EADEAD121A3BD5900B0FBA7 /* TestView2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EADEAD021A3BD5900B0FBA7 /* TestView2.xib */; };
+		3EADEAD321A3E63700B0FBA7 /* libXXNibBridge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EADEAD221A3E63700B0FBA7 /* libXXNibBridge.a */; };
 		3EC416A02199662E00AED72E /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC4169E2199662E00AED72E /* CollectionViewCell.m */; };
 		3EC416A12199662E00AED72E /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EC4169F2199662E00AED72E /* CollectionViewCell.xib */; };
 		3ECBE30A219D46BF004C952E /* AccessoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3ECBE309219D46BF004C952E /* AccessoryView.xib */; };
@@ -107,6 +110,10 @@
 		3E5836C4219930D300BE3A67 /* CollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
 		3E5836C5219930D300BE3A67 /* CollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewController.xib; sourceTree = "<group>"; };
 		3E684450218D85030073E4EE /* MHLXibToCode.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MHLXibToCode.framework; sourceTree = "<group>"; };
+		3EADEACD21A3BD4B00B0FBA7 /* TestView2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestView2.h; sourceTree = "<group>"; };
+		3EADEACE21A3BD4B00B0FBA7 /* TestView2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestView2.m; sourceTree = "<group>"; };
+		3EADEAD021A3BD5900B0FBA7 /* TestView2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestView2.xib; sourceTree = "<group>"; };
+		3EADEAD221A3E63700B0FBA7 /* libXXNibBridge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libXXNibBridge.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EC4169D2199662E00AED72E /* CollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
 		3EC4169E2199662E00AED72E /* CollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
 		3EC4169F2199662E00AED72E /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
@@ -164,6 +171,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EADEAD321A3E63700B0FBA7 /* libXXNibBridge.a in Frameworks */,
 				3E684451218D85030073E4EE /* MHLXibToCode.framework in Frameworks */,
 				F96F3BC3BDFF5A881E08BFFB /* libPods-XibDemo.a in Frameworks */,
 			);
@@ -269,6 +277,9 @@
 				3ECBE377219D6E42004C952E /* ViewController.h */,
 				3ECBE378219D6E42004C952E /* ViewController.m */,
 				3ECBE379219D6E42004C952E /* ViewController.xib */,
+				3EADEACD21A3BD4B00B0FBA7 /* TestView2.h */,
+				3EADEACE21A3BD4B00B0FBA7 /* TestView2.m */,
+				3EADEAD021A3BD5900B0FBA7 /* TestView2.xib */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -403,6 +414,7 @@
 		4D8DC8DC8B079B7195F45A2C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3EADEAD221A3E63700B0FBA7 /* libXXNibBridge.a */,
 				B1C0F045742A823A47E0A484 /* libPods-XibDemo.a */,
 			);
 			name = Frameworks;
@@ -532,6 +544,7 @@
 				3E5836B52196BD5900BE3A67 /* LabelViewController.xib in Resources */,
 				3ED370872193CBBA000D0539 /* test.png in Resources */,
 				3E51B16F219BC12F009C41A9 /* AdjustTableViewCell.xib in Resources */,
+				3EADEAD121A3BD5900B0FBA7 /* TestView2.xib in Resources */,
 				3EC416A12199662E00AED72E /* CollectionViewCell.xib in Resources */,
 				3E5836C1219929C100BE3A67 /* TableViewController.xib in Resources */,
 				3ED3708C2193CF0D000D0539 /* ImageViewViewController.xib in Resources */,
@@ -647,6 +660,7 @@
 				3EC416A02199662E00AED72E /* CollectionViewCell.m in Sources */,
 				3E51B169219BC10E009C41A9 /* TableViewController2.m in Sources */,
 				3E51B16E219BC12F009C41A9 /* AdjustTableViewCell.m in Sources */,
+				3EADEACF21A3BD4B00B0FBA7 /* TestView2.m in Sources */,
 				3E5836B42196BD5900BE3A67 /* LabelViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

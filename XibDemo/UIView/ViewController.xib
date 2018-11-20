@@ -31,15 +31,25 @@
                         <action selector="btnClick:" destination="-1" eventType="touchUpInside" id="mhP-kl-yaT"/>
                     </connections>
                 </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QDI-YG-xbc" customClass="TestView2">
+                    <rect key="frame" x="136" y="288" width="171" height="127"/>
+                    <color key="backgroundColor" red="1" green="0.70883486283919539" blue="0.70372777229796468" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="171" id="9GA-OV-VQi"/>
+                        <constraint firstAttribute="height" constant="127" id="EgO-jp-C8L"/>
+                    </constraints>
+                </view>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="rZR-qM-xTk" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="143" id="ezO-Id-UaY"/>
                 <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="rZR-qM-xTk" secondAttribute="trailing" constant="94" id="fG7-4O-UNI"/>
                 <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="rZR-qM-xTk" secondAttribute="bottom" constant="117" id="hN7-z3-Whc"/>
+                <constraint firstItem="rZR-qM-xTk" firstAttribute="top" secondItem="QDI-YG-xbc" secondAttribute="bottom" constant="60" id="oMu-7I-UFu"/>
+                <constraint firstItem="QDI-YG-xbc" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" constant="34" id="qcK-cP-YI4"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
-            <point key="canvasLocation" x="-272" y="-81"/>
+            <point key="canvasLocation" x="-272.5" y="-81.5"/>
         </view>
     </objects>
 </document>
