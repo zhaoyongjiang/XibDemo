@@ -7,6 +7,6 @@ target 'XibDemo' do
 
   pod 'IQKeyboardManager'
   pod 'Masonry'
-  pod 'XXNibBridge', '~> 2.3.0'
+  pod 'XXNibBridge', '~> 2.3.1'
   
 end
