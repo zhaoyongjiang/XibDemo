@@ -34,6 +34,23 @@
     self.backgroundColor = color;
 }
 
+- (void)setBorderWidth:(CGFloat)borderWidth {
+    self.layer.borderWidth = borderWidth;
+    
+}
+
+- (CGFloat)borderWidth {
+    return self.layer.borderWidth;
+}
+
+- (void)setBorderColor:(UIColor *)borderColor {
+    self.layer.borderColor = borderColor.CGColor;
+}
+
+- (UIColor *)borderColor {
+    return [UIColor colorWithCGColor:self.layer.borderColor];
+}
+
 - (void)setMasksBounds:(BOOL)masksBounds
 {
     _masksBounds = masksBounds;

@@ -13,11 +13,16 @@
 IB_DESIGNABLE
 
 @interface CustomImageView : UIImageView
-//属性用IBInspectable修饰后，就能在xib中看到这个属性了，当然也可以用xib进行赋值了
-@property (nonatomic, assign) IBInspectable NSInteger num;
 
-@property (nonatomic, assign) IBInspectable CGFloat fNum;
+//这些属性，都可以封装到分类中，便于公用
+
+//属性用IBInspectable修饰后，就能在xib中看到这个属性了，当然也可以用xib进行赋值了
+//@property (nonatomic, assign) IBInspectable NSInteger num;
+//
+//@property (nonatomic, assign) IBInspectable CGFloat fNum;
 @property (nonatomic, assign) IBInspectable CGFloat radius;
+@property (nonatomic,assign) IBInspectable CGFloat borderWidth;
+@property (nonatomic,strong) IBInspectable UIColor *borderColor;
 
 @property (nullable, nonatomic, copy) IBInspectable NSString *str;
 
